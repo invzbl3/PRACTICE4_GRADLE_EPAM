@@ -9,7 +9,7 @@ public class Part1Test {
     @Test
     public void shouldReturnSentenceWithoutTwoCharactersAndInUppercase() {
         String actual = Part1.delete("Create a class that displays the");
-        String expected = "EATE a ASS AT SPLAYS the";
+        String expected = "eate a ass at splays the";
         assertEquals(expected, actual);
     }
 
