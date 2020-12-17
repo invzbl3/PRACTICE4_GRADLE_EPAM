@@ -10,6 +10,13 @@ public class Part3Test {
 
     @Test
     public void shouldReturnInteger() {
+        String actual = Part3.getResultOperation("int");
+        String expected = "432 89 ";
+        assertEquals(expected, actual);
+    }
+
+/*    @Test
+    public void shouldReturnInteger() {
         String actual = Part3.printInt();
         String expected = "432 89 ";
         assertEquals(expected, actual);
@@ -34,7 +41,7 @@ public class Part3Test {
         String actual = Part3.printString();
         String expected = "bcd Рё РІС ";
         assertEquals(expected, actual);
-    }
+    }*/
 
     @Test
     public void demoTest() throws IOException {
